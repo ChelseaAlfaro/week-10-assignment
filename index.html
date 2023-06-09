@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <div class ="table-responsive">
+        <table class="table table-light table-bordered" id = "table">
+            <thead>
+            <tr>
+             <th scope="col">Animal</th>
+             <th scope="col">Type</th>
+             <th scope="col">Environment</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Gorrilla</td>
+                <td>Mammal</td>
+                <td>Jungle</td>
+            </tr>
+            <tr>
+                <td>Lion</td>
+                <td>Mammal</td>
+                <td>Savanna</td>
+            </tr>
+            </tbody>
+    </div>
+    
+      </table> 
+
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+              <div class="col-sm">
+                  <div class="form-group">
+                      <label for="new-animal">New Animal</label>
+                      <input type="text" class="form-control" id="new-animal"  placeholder="ex. Jellyfish">
+                  </div>
+  
+              </div>
+              <div class="col-sm">
+                  <div class="form-group">
+                      <label for="new-animal-type">New Animal Type</label>
+                      <input type="text" class="form-control" id="new-animal-type"  placeholder="ex. Invertebrate">
+                  </div>
+  
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm">
+                  <div class="form-group">
+                      <label for="new-animal-home">New Animal Home</label>
+                      <input type="text" class="form-control" id="new-animal-home" placeholder="ex. Pacific Ocean">
+                  </div>
+              </div>
+          </div>
+          <div>
+            <button id="add" class="btn btn-primary form-control">Submit New Animal</button>  
+            </div>
+          <div>
+
+
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
